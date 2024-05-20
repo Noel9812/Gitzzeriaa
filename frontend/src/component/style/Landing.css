@@ -1,0 +1,64 @@
+/* Body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.landing-container {
+    background-image: url('/frontend/src/component/Images/10-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for the landing page header */
+.landing-header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Styles for the button container */
+.login-signupbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the Call-to-Action (CTA) buttons */
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin to separate text and buttons */
+}
+
+.cta-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.cta-link {
+    text-decoration: none;
+    color: inherit;
+}

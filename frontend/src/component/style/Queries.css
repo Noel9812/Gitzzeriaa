@@ -1,0 +1,42 @@
+.queries-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .branding h1 {
+    text-align: center;
+  }
+  
+  .support-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .feedback-section, .query-section {
+    flex: 1;
+    padding-top: 55px;
+  }
+  
+  .feedback-item, .query-item {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .feedback-item h3, .query-item h3 {
+    margin: 0 0 5px;
+  }
+  
+  .feedback-item p, .query-item p {
+    margin: 0;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,85 @@
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0;
+
+  }
+  
+  .my-order {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #4a4a4a;
+  }
+  
+  .order-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .order-item {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+  
+  .order-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .order-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item ul li {
+    padding: 5px 0;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+  }
+  
+  .total, .payment-status, .schedule-later, .order-status {
+    font-weight: bold;
+  }
+  
+  .order-ready-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: fadeInOut 3s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  

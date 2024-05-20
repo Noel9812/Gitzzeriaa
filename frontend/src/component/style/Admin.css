@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .branding h1 {
+    margin: 0;
+  }
+  
+  .mynav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .admin-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .orders{
+    flex: 1;
+    padding-top: 120px;
+    margin-left: 22px;
+   
+  }
+  
+  .scheduled-orders{
+    flex: 1;
+    padding-top: 120px;
+    margin-left: 50px;
+    margin-right: 20px;
+   
+  }
+    
+  
+  
+  .orders h2, .scheduled-orders h2 {
+    margin-bottom: 10px;
+  }
+  
+  .order-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .order-details {
+    margin-bottom: 10px;
+  }
+  
+  .order-details h3 {
+    margin: 0;
+  }
+  
+  .order-details p {
+    margin: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .order-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  

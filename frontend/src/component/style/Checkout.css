@@ -1,0 +1,118 @@
+/* style/Checkout.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f8f9fa; /* Light grey background */
+  color: #333; /* Dark grey text for readability */
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#total-price {
+  font-weight: bold;
+}
+
+button {
+  display: inline-block;
+  width: 180px;
+  margin: 10px;
+  padding: 15px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-of-type(1) {
+  background-color: #ffc107;
+}
+
+button:nth-of-type(1):hover {
+  background-color: #e0a800;
+}
+
+button:nth-of-type(2) {
+  background-color: #007bff;
+}
+
+button:nth-of-type(2):hover {
+  background-color: #0056b3;
+}
+
+button:nth-of-type(3) {
+  background-color: #28a745;
+}
+
+button:nth-of-type(3):hover {
+  background-color: #218838;
+}
+
+button:nth-of-type(4) {
+  background-color: #dc3545;
+}
+
+button:nth-of-type(4):hover {
+  background-color: #c82333;
+}
+
+.schedule-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.confirm-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-button:hover {
+  background-color: #0056b3;
+}
