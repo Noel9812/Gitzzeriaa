@@ -13,7 +13,7 @@ The Cashless Canteen Platform is designed to revolutionize the dining experience
 
 ## Technology Stack
 
-- **Frontend**: React, HTML, CSS
+- **Frontend**: React, HTML, CSS, Javascript
 - **Backend**: Firebase for real-time database management and serverless infrastructure
 - **Payment Gateway**: (Insert Payment Gateway e.g., Stripe, Razorpay)
 - **Additional Tools**: (e.g., Node.js for backend logic, Express for API routing)
